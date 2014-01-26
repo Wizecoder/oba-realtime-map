@@ -1,16 +1,19 @@
 PODS:
   - Expecta (0.2.3)
   - MagicalRecord (2.2)
+  - RaptureXML (1.0.1)
   - Specta (0.2.1)
 
 DEPENDENCIES:
   - Expecta (~> 0.2.3)
   - MagicalRecord
+  - RaptureXML
   - Specta (~> 0.2.1)
 
 SPEC CHECKSUMS:
   Expecta: dbc4a27fabb853bdd2e907e33f11ee43a9a47d0c
   MagicalRecord: b1fc46c99a9749fe7fe7e6f43a89b62ef5201933
+  RaptureXML: ef017fda62eb95c60300108366d1f0cd0c28cbd4
   Specta: 2d06220591110c6d9757d8be8ecf8e63aa40dc2a
 
 COCOAPODS: 0.29.0

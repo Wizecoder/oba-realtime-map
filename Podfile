@@ -1,6 +1,7 @@
 platform :ios
 
 pod 'MagicalRecord'
+pod 'RaptureXML'
 
 target :test, :exclusive => true do
 	link_with 'oba-realtime-mapTests'
