@@ -1,18 +1,40 @@
 PODS:
+  - AFNetworking (2.1.0):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+    - AFNetworking/UIKit
+  - AFNetworking/NSURLConnection (2.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.1.0):
+    - AFNetworking/NSURLConnection
+  - AFNetworking/Reachability (2.1.0)
+  - AFNetworking/Security (2.1.0)
+  - AFNetworking/Serialization (2.1.0)
+  - AFNetworking/UIKit (2.1.0):
+    - AFNetworking/NSURLConnection
+  - AFRaptureXMLRequestOperation (1.0.3):
+    - AFNetworking (~> 2.0.2)
+    - RaptureXML (~> 1.0.1)
   - Expecta (0.2.3)
-  - MagicalRecord (2.2)
   - RaptureXML (1.0.1)
   - Specta (0.2.1)
 
 DEPENDENCIES:
+  - AFNetworking
+  - AFRaptureXMLRequestOperation
   - Expecta (~> 0.2.3)
-  - MagicalRecord
   - RaptureXML
   - Specta (~> 0.2.1)
 
 SPEC CHECKSUMS:
+  AFNetworking: c7d7901a83f631414c7eda1737261f696101a5cd
+  AFRaptureXMLRequestOperation: 56cf8e0ac06cb52540e1cbe83b49feecca9656e9
   Expecta: dbc4a27fabb853bdd2e907e33f11ee43a9a47d0c
-  MagicalRecord: b1fc46c99a9749fe7fe7e6f43a89b62ef5201933
   RaptureXML: ef017fda62eb95c60300108366d1f0cd0c28cbd4
   Specta: 2d06220591110c6d9757d8be8ecf8e63aa40dc2a
 

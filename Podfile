@@ -1,7 +1,8 @@
-platform :ios
+platform :ios, '7.0'
 
-pod 'MagicalRecord'
 pod 'RaptureXML'
+pod 'AFNetworking'
+pod 'AFRaptureXMLRequestOperation'
 
 target :test, :exclusive => true do
 	link_with 'oba-realtime-mapTests'

@@ -7,6 +7,7 @@
 //
 
 #import "OBAAppDelegate.h"
+#import "OBADataLoader.h"
 
 @implementation OBAAppDelegate
 
@@ -16,6 +17,9 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    
+    OBADataLoader *loader = [[OBADataLoader alloc] init];
+    [loader loadData];
     return YES;
 }
 
